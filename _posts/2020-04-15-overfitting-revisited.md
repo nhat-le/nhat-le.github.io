@@ -6,6 +6,8 @@ date: 2020-04-20
 
 In this post, I'm going to tell you some new and potentially interesting perspectives on overfitting and underfitting. I learned most of the materials in this post from a recent talk by Professor Mikhail Belkin at the Ohio State University, so all the credits go to him. Here, I try to explain his results in a way that makes the most sense to me. Hopefully you will find this post interesting too.
 
+![Overfitting](http://nhat-le.github.io/files/overfitting.png)
+
 Now, let's dive in. Let's start with the concept of *overfitting*. (If you're already familiar with overfitting, feel free to skip this section) Let's say, for example, that you're given a bunch of data points (shown in blue) and are asked to draw a best-fit line through these points.
 
 What sort of line would you draw? Well, you could start with a very simple model, a straight line. A straight line could capture some of the variation you see, but not much. We call this *underfitting* - the model is too simple to describe the data satisfactorily.
