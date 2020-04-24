@@ -7,14 +7,22 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-color: white;
+    background-color: cornflowerblue;
+    padding: 15px;
+    background: #6495ED;
+    background: -moz-linear-gradient(left, #6495ED 0%, #6495ED 19%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(left, #6495ED 0%, #6495ED 19%, #FFFFFF 100%);
+    background: linear-gradient(to right, #6495ED 0%, #6495ED 19%, #FFFFFF 100%);
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
+  
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: white;
 }
 a:hover {
     text-decoration: underline;
