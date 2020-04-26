@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: papayawhip;
 }
 footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -9,19 +10,19 @@ footer ul {
     font-weight: bold;
 }
 
+nav {
+    color: white;
+    border-color: white;
+}
 
 nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
     list-style: none;
     font-weight: bold;
-    font-color: white;
     background-color: cornflowerblue;
     padding: 15px;
-    background: #6495ED;
-    background: -moz-linear-gradient(left, #6495ED 0%, #6495ED 19%, #FFFFFF 100%);
-    background: -webkit-linear-gradient(left, #6495ED 0%, #6495ED 19%, #FFFFFF 100%);
-    background: linear-gradient(to right, #6495ED 0%, #6495ED 19%, #FFFFFF 100%);
+    background: black;
+    
 }
 nav ul li, footer ul li {
     display: inline;
