@@ -22,11 +22,13 @@ I started with the integral:
 
 Now comes the trick: I differentiated both sides *with respect to M*, several times...
 
-\begin{align}
-    \int_0^\infty x^3 \ \exp\left(-Mx^2\right) \ \mathrm{d}x = \frac{1}{2M^2} \\
-    \int_0^\infty x^5 \ \exp\left(-Mx^2\right) \ \mathrm{d}x = \frac{2}{2M^3} \\
-    \int_0^\infty x^7 \ \exp\left(-Mx^2\right) \ \mathrm{d}x = \frac{6}{2M^4}
-\end{align}
+$$
+\begin{aligned}
+    \int_0^\infty x^3 \ \exp\left(-Mx^2\right) \ \mathrm{d}x &= \frac{1}{2M^2} \\
+    \int_0^\infty x^5 \ \exp\left(-Mx^2\right) \ \mathrm{d}x &= \frac{2}{2M^3} \\
+    \int_0^\infty x^7 \ \exp\left(-Mx^2\right) \ \mathrm{d}x &= \frac{6}{2M^4}
+\end{aligned}
+$$
 
 Have you noticed a pattern? It is easy to see (and trivial to prove by induction) that
 
