@@ -23,8 +23,8 @@ I started with the integral:
 Now comes the trick: I differentiated both sides *with respect to M*, several times...
 
 \begin{align}
-    \int_0^\infty x^3 \ \exp\left(-Mx^2\right) \ \mathrm{d}x = \frac{1}{2M^2} \\[1em]
-    \int_0^\infty x^5 \ \exp\left(-Mx^2\right) \ \mathrm{d}x = \frac{2}{2M^3} \\[1em]
+    \int_0^\infty x^3 \ \exp\left(-Mx^2\right) \ \mathrm{d}x = \frac{1}{2M^2} \\
+    \int_0^\infty x^5 \ \exp\left(-Mx^2\right) \ \mathrm{d}x = \frac{2}{2M^3} \\
     \int_0^\infty x^7 \ \exp\left(-Mx^2\right) \ \mathrm{d}x = \frac{6}{2M^4}
 \end{align}
 
@@ -34,17 +34,17 @@ Have you noticed a pattern? It is easy to see (and trivial to prove by induction
     \int_0^\infty x^{2n-1} \ \exp\left(-Mx^2\right) \ \mathrm{d}x = \frac{(n-1)!}{2M^n}
 \end{align}
 
-We're done! By replacing $M = 1$ and $n = 2$, my original integral is solved. We also arrived at a more general formula to solve the integral for odd powers of $x$. 
+We're done! By replacing $$M = 1$$ and $$n = 2$$, my original integral is solved. We also arrived at a more general formula to solve the integral for odd powers of $$x$$. 
 
-But the fun doesn't stop there. Let's put $M=1$ to get
+But the fun doesn't stop there. Let's put $$M=1$$ to get
 
 $$(n-1)! = 2\int_0^\infty x^{2n-1} \ \exp\left(-x^2\right) \ \mathrm{d}x$$
 
-A simple change of variable $t=x^2$ gets us:
+A simple change of variable $$t=x^2$$ gets us:
 
 $$(n-1)! = \int_0^\infty t^{n-1} \ \exp\left(-t\right) \ \mathrm{d}t$$
 
-Guess what, the right hand side is exactly the Gamma function, which is the natural extension of the factorial function to real numbers.
+Guess what, the right hand side is the Gamma function, which is the natural extension of the factorial function to real numbers.
 
 $$(n-1)! = \Gamma(n) = \int_0^\infty t^{n-1} \ e^{-t} \ \mathrm{d}t$$
 
